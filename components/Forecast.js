@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, TextComponent, TextInput, TextInputComponent, View, ViewBase, ViewComponent } from 'react-native';
+import { Text,  View } from 'react-native';
 
 export default function Forecast(props) {
     return(

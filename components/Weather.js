@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {useState } from 'react';
 import { Text } from 'react-native';
+import Forecast from './Forecast';
 
 export default function Weather(props) {
     const [forecastInfo, setForecastInfo] = useState({
@@ -7,6 +8,7 @@ export default function Weather(props) {
         description: '-',
         temp: 0
     })
+
     return(
         <Forecast {...forecastInfo}/>
     )
