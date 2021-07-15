@@ -3,12 +3,11 @@ import React from 'react';
 import { StyleSheet,  View } from 'react-native';
 import Weather from './components/Weather';
 import Constant from 'expo-constants';
-import Constants from 'expo-constants';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Weather zipCode="90110" />
+      <Weather style={styles.Text} zipCode=" Zip code is 90110" />
       <StatusBar style="auto" />
     </View>
   );
@@ -16,6 +15,6 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-      paddingTop: Constant.statusBarHeight
-  },
+      paddingTop: Constant.statusBarHeight,
+  }
 });
