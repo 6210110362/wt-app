@@ -46,8 +46,6 @@ const styles = StyleSheet.create({
     zipItem: {
         flex: 1,
         flexDirection: 'row',
-        //justifyContent: 'space-evenly',
-        //margin: '1.3%',
         flexWrap: 'wrap',
         borderBottomWidth: .5
         
@@ -64,12 +62,7 @@ const styles = StyleSheet.create({
         flex: 1,
         fontSize: 20,
         marginTop: 30,
-        //textAlign: 'center',
-        //paddingHorizontal: 200,
-        //paddingLeft:80,
         paddingStart: 230
-    
-
     },
     Code: {
         flex: 1,
@@ -82,7 +75,5 @@ const styles = StyleSheet.create({
         fontSize: 25,   
         marginBottom: 30,
         marginTop: 30,
-        
-        //backgroundColor: 'red'
     }
 })
