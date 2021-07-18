@@ -14,13 +14,13 @@ export default function Forecast(props) {
 const styles = StyleSheet.create({
     Text: {
         fontSize: 20,
-        color: 'white',
+        color: 'black',
         textAlign: 'center',
         marginBottom: 60
     },
     TextTemp:{
         fontSize: 20,
-        color: 'white',
+        color: 'black',
         textAlign: 'center',
         textAlignVertical: 'bottom',
         marginBottom: 60
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     },*/
     TextMain: {
         fontSize: 30,
-        color: 'white',
+        color: 'black',
         textAlign: 'center',
         marginBottom: 60
     }
