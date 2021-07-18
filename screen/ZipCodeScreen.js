@@ -6,6 +6,7 @@ const availableZipItems = [
     { place: 'PLACE',     code: 'CODE'  },
     { place: 'Hatyai',    code: '90110' },
     { place: 'Trang',     code: '92000' },
+    { place: 'Pattani',   code: '94110' },
     { place: 'Chiangmai', code: '50000' },
     { place: 'Khonkaen',  code: '40000' },
     { place: 'Chonburi',  code: '20000' },
@@ -35,11 +36,11 @@ export default function ZipCodeScreen(){
 
 const styles = StyleSheet.create({
     zipItem: {
-        flex: 2,
+        flex: 1,
         flexDirection: 'row',
-        justifyContent: 'space-evenly',
+        justifyContent: 'space-between',
         margin: '1.3%',
-        
+        alignContent: 'center',
     },
     zipPlace: {
         flex: 1,
@@ -58,11 +59,12 @@ const styles = StyleSheet.create({
 
     },
     Code: {
-        fontSize: 20,
+
+        fontSize: 20,   
         //color: 'white',
         marginBottom: 30,
         marginTop: 30,
-        //textAlign: 'center',
+        textAlignVertical: 'center',
 
 
     }
